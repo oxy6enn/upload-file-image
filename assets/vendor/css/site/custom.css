@@ -1,0 +1,384 @@
+
+/* จัดตำแหน่งของชื่อ รพ. */
+@media(max-width: 1199px) {
+    .hotpitalname {
+      text-align: center !important;
+    }
+  
+  }
+  
+  /* ขนาดของ Carousle */
+  .carousel-inner {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+  }
+  
+  
+  .faq-header {
+    background: url("../../../img/header/header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px !important;
+    border-radius: .375rem
+  }
+  
+  .faq-header .input-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 55%
+  }
+  
+  @media(max-width: 575.98px) {
+    .faq-header .input-wrapper {
+      max-width: 70%
+    }
+  }
+  
+  .faq-nav-icon {
+    font-size: 1.25rem
+  }
+  
+  .light-style .bg-faq-section {
+    background-color: rgba(67, 89, 113, .05)
+  }
+  
+  .dark-style .bg-faq-section {
+    background-color: rgba(255, 255, 255, .03)
+  }
+  
+  
+  .section-py {
+    padding: 5rem 0;
+  }
+  
+  .section-py {
+    background-color: #fff
+  }
+  
+  
+  
+  .landing-footer .footer-link {
+    transition: all .2s ease-in-out
+  }
+  
+  .landing-footer .footer-link:hover {
+    opacity: .8
+  }
+  
+  .landing-footer .footer-top {
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3.5rem 0;
+    margin: 3.5rem 0 0;
+    border-top-left-radius: 3.75rem;
+    border-top-right-radius: 3.75rem
+  }
+  
+  @media(max-width: 767.98px) {
+    .landing-footer .footer-top {
+      padding: 3rem 0
+    }
+  }
+  
+  @media(min-width: 992px) {
+    .landing-footer .footer-logo-description {
+      max-width: 322px
+    }
+  }
+  
+  .landing-footer .footer-form {
+    max-width: 22.25rem
+  }
+  
+  .footer-top {
+    background-color: #fff
+  }
+  
+  
+  .footer-bottom {
+    background-color: #9359A6
+  }
+  
+  .img-fluid-2 {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+  
+  
+  .website-card {
+    white-space: nowrap;
+    /* ไม่อนุญาตให้ข้อความขึ้นบรรทัดใหม่ */
+    overflow: hidden;
+    /* ซ่อนข้อความที่เกิน */
+    text-overflow: ellipsis;
+    /* เพิ่ม ... ที่สิ้นสุดข้อความที่เกิน */
+    max-width: 100%;
+    /* ความกว้างสูงสุดของ element */
+  }
+  
+  
+  
+  /* lightbox1 css */
+  .lightbox-gallery {
+    background-image: linear-gradient(#4A148C, #E53935);
+    background-repeat: no-repeat;
+    color: #000;
+    overflow-x: hidden
+  }
+  
+  .lightbox-gallery p {
+    color: #fff
+  }
+  
+  .lightbox-gallery h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: #fff
+  }
+  
+  @media (max-width:767px) {
+    .lightbox-gallery h2 {
+      margin-bottom: 25px;
+      padding-top: 25px;
+      font-size: 24px
+    }
+  }
+  
+  .lightbox-gallery .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto 40px
+  }
+  
+  .lightbox-gallery .intro p {
+    margin-bottom: 0
+  }
+  
+  .lightbox-gallery .photos {
+    padding-bottom: 20px
+  }
+  
+  .lightbox-gallery .item {
+    padding-bottom: 30px
+  }
+  
+
+  
+  /* lightbox2 css */
+  :root {
+    --lightbox: rgb(0 0 0 / 0.75);
+    --carousel-text: #fff;
+  }
+  
+  
+  @keyframes zoomin {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .gallery-item {
+    display: block;
+  }
+  
+  .gallery-item img {
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.2s;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .gallery-item:hover img {
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.35);
+    transform: translateY(-10px); /* ปรับตามความต้องการ */
+  }
+  
+  .lightbox-modal .modal-content {
+    background-color: var(--lightbox);
+  }
+  
+  .lightbox-modal .btn-close {
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+    font-size: 1.25rem;
+    z-index: 10;
+    filter: invert(1) grayscale(100);
+  }
+  
+  .lightbox-modal .modal-body {
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .lightbox-modal .lightbox-content {
+    width: 100%;
+  }
+  
+  .lightbox-modal .carousel-indicators {
+    margin-bottom: 0;
+  }
+  
+  .lightbox-modal .carousel-indicators [data-bs-target] {
+    background-color: var(--carousel-text) !important;
+  }
+  
+  .lightbox-modal .carousel-inner {
+    width: auto;
+    height: auto;
+  }
+  
+  .lightbox-modal .carousel-inner img {
+    animation: zoomin 10s linear infinite;
+  }
+  
+  .lightbox-modal .carousel-item .carousel-caption {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 2rem;
+    background-color: var(--lightbox);
+    color: var(--carousel-text) !important;
+  }
+  
+  .lightbox-modal .carousel-control-prev,
+  .lightbox-modal .carousel-control-next {
+    width: auto;
+  }
+  
+  .lightbox-modal .carousel-control-prev {
+    left: 1.25rem;
+  }
+  
+  .lightbox-modal .carousel-control-next {
+    right: 1.25rem;
+  }
+  
+  @media (min-width: 1400px) {
+    .lightbox-modal .carousel-inner {
+      max-width: 60%;
+    }
+  }
+  
+  [data-bs-theme = "dark"] .lightbox-modal .carousel-control-next-icon,
+  [data-bs-theme = "dark"] .lightbox-modal .carousel-control-prev-icon {
+      filter: none;
+  }
+  
+  
+  /* ปิดโฆษณา */
+  #om-bmfrltdyrytgkiod0ppos {
+    display: none;
+  }
+  
+  #om-bmfrltdyrytgkiod0ppo {
+    display: none;
+  }
+  
+  
+  
+  .boston-c-wrapper Campaign__innerWrapper Slide--open {
+  
+    display: none;
+  }
+
+
+
+/* ปรับการ์ดให่้เด้ง Card Relative*/
+
+.relative {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-out;
+}
+
+.relative:hover {
+    transform: translateY(-10px); /* ปรับตามความต้องการ */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* เพิ่มเงาเมื่อ hover */
+}
+
+
+/* ปรับการ์ดให้ขอบหม่น */
+.img-fluid-2 {
+  /* height: 100px;
+  width: 200px;
+  margin: 10px 10px 10px 10px; */
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  */
+  border: 1px solid #0000001c;
+  border-radius: 10px 10px 10px 10px;
+  object-fit: cover;
+}
+
+
+
+/* ปรับให้ภาพเป็นวงกลม doctor */
+.preview_img_doctor {
+  height: 150px;
+  width: 150px;
+  margin: 10px 10px 10px 10px;
+  border: 4px solid #e7e7ff;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+
+/* ปรับให้ภาพเป็นวงกลม doctor */
+.preview_img_doctor_2 {
+  height: 200px;
+  width: 200px;
+  margin: 10px 10px 10px 10px;
+  border: 4px solid #e7e7ff;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+
+/* about hospital */
+.faq-header .input-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 55%
+}
+
+@media(max-width: 575.98px) {
+  .faq-header .input-wrapper {
+      max-width:70%
+  }
+}
+
+.faq-nav-icon {
+  font-size: 1.25rem
+}
+
+.faq-banner-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: left;
+  border-radius: .375rem
+}
+
+.light-style .bg-faq-section {
+  background-color: rgba(67,89,113,.05);
+}
+
+.dark-style .bg-faq-section {
+  background-color: rgba(255,255,255,.03)
+}
+<<<<<<< HEAD
+
+=======
+>>>>>>> 12f3c1540c71b3ef2981c904a93e24937cba0e94
